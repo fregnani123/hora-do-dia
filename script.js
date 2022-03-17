@@ -13,7 +13,7 @@ img.src = 'imagem/manha.png'}
 //Boa tarde
 else if (hora >= 12 && hora < 18){
     img.src = 'imagem/tarde.png'
-    document.body.style.background ='#b9846f'
+    document.body.style.background ='#b9843f'
 }
 //Boa noite
 else {img.src = 'imagem/noite.png'
