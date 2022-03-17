@@ -4,7 +4,7 @@ function carregar(){
 var msg = document.getElementById('mensagem')
 var img = document.getElementById('imagem')
 var data = new Date()
-var hora = data.getHours()
+var hora = data.getHours() 
 var mim = data.getMinutes()
 msg.innerHTML = `Agora são ${hora} hrs e ${mim} mim - Brasil / Brasilia-DF`
 //Bom dia
