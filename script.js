@@ -4,10 +4,9 @@ function carregar(){
 var msg = document.getElementById('mensagem')
 var img = document.getElementById('imagem')
 var data = new Date()
-//var hora = data.getHours()
-var hora = 22
+var hora = data.getHours()
 var mim = data.getMinutes()
-msg.innerHTML = `agora são ${hora} horas e ${mim} mim `
+msg.innerHTML = `Agora são ${hora} hrs e ${mim} mim - Brasil / Brasilia-DF`
 //Bom dia
 if (hora >= 0 && hora <=12) {document.body.style.background= "#e2cd9f"
 img.src = 'imagem/manha.png'}
